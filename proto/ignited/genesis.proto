@@ -1,0 +1,14 @@
+syntax = "proto3";
+package l0k18.ignited.ignited;
+
+import "gogoproto/gogo.proto";
+import "ignited/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/l0k18/ignited/x/ignited/types";
+
+// GenesisState defines the ignited module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+package l0k18.ignited.ignited;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/l0k18/ignited/x/ignited/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
